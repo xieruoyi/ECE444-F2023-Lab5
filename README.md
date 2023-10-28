@@ -1,13 +1,16 @@
 # ECE444-Lab5-TDD  
-Pros:  
-1. Improved Code Quality: Since developers write tests first, they can focus on the requirements and edge cases. This often results in more robust and less buggy code.  
-2. Better Code Design: TDD can lead to more modular and maintainable code. When writing tests first, developers often create more modular functions and classes to make the testing process easier.  
-3. Immediate Feedback: Developers get immediate feedback when writing the code. If a function doesn't work as expected, they know right away.  
+Pros of TDD:  
+Improved Code Quality: By writing tests first, developers focus on requirements and potential edge cases upfront. This approach often yields more stable and error-resistant code.  
+Better Code Design: TDD tends to produce more modular and easily maintainable code. Since developers are writing tests beforehand, they naturally design functions and classes that are simpler to test and integrate.  
+Immediate Feedback: The cycle of TDD provides developers with immediate feedback on their code. This immediate validation means that if something is amiss, it's identified and addressed promptly, reducing future debugging time.  
+Cons of TDD:  
+Learning Curve: For those unfamiliar with TDD, there can be a significant learning curve. Understanding how to write effective tests and adapting to the "tests first" mindset can be challenging initially.  
 
-Cons:  
-1. Steep Learning Curve: Developers new to TDD might find it challenging to write tests first or might struggle with writing effective tests.  
-2. Slower Initial Development: Writing tests before the actual code can slow down the initial development process.  
-3. Risk of Overengineering: With a focus on writing tests for every bit of functionality, there's a potential to overengineer solutions.  
-4. False Sense of Security: Just because all tests pass doesn't mean the software is bug-free. Poorly written tests might miss crucial scenarios or edge cases.
+Initial Development Pace: While TDD can save time in the long run by reducing bugs, it might make the initial phase of development feel slower, as tests are written before any functional code.  
+
+Risk of Overengineering: With an emphasis on extensive test coverage, there's a possibility that developers might introduce unnecessary complexity to the code.  
+
+False Sense of Security: Passing tests don't guarantee a bug-free application. The efficacy of TDD relies heavily on the quality of the tests written, and poorly crafted tests can overlook vital scenarios.  
+
 
 
