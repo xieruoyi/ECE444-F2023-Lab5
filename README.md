@@ -1,8 +1,11 @@
 # ECE444-Lab5-TDD  
 Pros of TDD:  
 Improved Code Quality: By writing tests first, developers focus on requirements and potential edge cases upfront. This approach often yields more stable and error-resistant code.  
+
 Better Code Design: TDD tends to produce more modular and easily maintainable code. Since developers are writing tests beforehand, they naturally design functions and classes that are simpler to test and integrate.  
+
 Immediate Feedback: The cycle of TDD provides developers with immediate feedback on their code. This immediate validation means that if something is amiss, it's identified and addressed promptly, reducing future debugging time.  
+
 Cons of TDD:  
 Learning Curve: For those unfamiliar with TDD, there can be a significant learning curve. Understanding how to write effective tests and adapting to the "tests first" mindset can be challenging initially.  
 
